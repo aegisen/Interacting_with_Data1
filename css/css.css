@@ -1,15 +1,14 @@
 html {
     background-color: #1a1a21 !important;
     margin: 2em;
-    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-family: Georgia, serif;
     font-size: 100%;
 }
 h1{
     font-size: 42px;
     font-family: monospace, Helvetica, sans-serif;
     font-weight: bold;
-    border: 4px solid #78777e;
-    margin-top: 40px;
+    margin-top: 30px;
     color: #e7e6f0
 }
 
