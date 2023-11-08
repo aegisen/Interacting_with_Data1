@@ -1,14 +1,13 @@
 html {
     background-color: #1a1a21 !important;
     margin: 2em;
-    font-family: Georgia, serif;
     font-size: 100%;
 }
 h1{
-    font-size: 42px;
-    font-family: monospace, Helvetica, sans-serif;
+    font-size: 50px;
+    font-family: "Palatino", serif;
     font-weight: bold;
-    margin-top: 30px;
+    margin-top: 40px;
     color: #e7e6f0
 }
 
@@ -44,28 +43,20 @@ div{
 
 a {
     color: #9357DB;
-    /* First we need to help some browsers along for this to work.
-       Just because a vendor prefix is there, doesn't mean it will
-       work in a browser made by that vendor either, it's just for
-       future-proofing purposes I guess. */
     -o-transition:color .2s ease-out, background 1s ease-in;
     -ms-transition:color .2s ease-out, background 1s ease-in;
     -moz-transition:color .2s ease-out, background 1s ease-in;
     -webkit-transition:color .2s ease-out, background 1s ease-in;
-    /* ...and now for the proper property */
     transition:color .2s ease-out, background 2s ease-in;
   }
-  a:hover { color:#bb418a; background: #E1E0FC; }
+  a:hover { color:#bb418a; background: #434047; }
 section {
     margin: 2rem;
 }
 
-
-/* classes */
 .scalesvg{
     width: 80%;
 }
-/* specific divs */
 
 ::selection {
     color: whitesmoke;
