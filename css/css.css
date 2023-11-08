@@ -5,10 +5,17 @@ html {
 }
 h1{
     font-size: 50px;
-    font-family: "Palatino", serif;
-    font-weight: bold;
-    margin-top: 40px;
+    font-family: "Century Gothic", sans-serif;
+    font-weight: 200px;
+    margin-top: 20px;
+    margin-bottom: 0px;
     color: #e7e6f0
+}
+
+h1.gradient{
+    background: -webkit-linear-gradient(302deg, #a239d3 3%, rgba(180, 72, 215, 1) 16%, #c557db 29%, rgba(241,72,202,1) 48%, #ce4396 74%, #df76cb 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
 }
 
 h2{
@@ -20,11 +27,18 @@ h2{
 p{
     font-size: 20px;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-    color: #b9b9c4
+    color: #b9b9c4;
+    line-height: 1.5;
 }
 
 iframe{
     border: 0;
+}
+
+body{
+    justify-content: center;
+    place-content: center;
+    align-items: center;
 }
 
 div{
@@ -32,11 +46,13 @@ div{
     margin: auto;
     text-align: center;
     padding: 20px;
-    margin-left: 100px;
-    margin-right: 100px;
+    margin-left: 150px;
+    margin-right: 150px;
 }
 
 .center {
+    text-align: center;
+    justify-content: center;
     width: 50%;
 
 }
@@ -50,6 +66,8 @@ a {
     transition:color .2s ease-out, background 2s ease-in;
   }
   a:hover { color:#bb418a; background: #434047; }
+
+
 section {
     margin: 2rem;
 }
