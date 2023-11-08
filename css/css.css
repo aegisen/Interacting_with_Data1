@@ -5,20 +5,22 @@ html {
     font-size: 100%;
 }
 h1{
-    font-size: 2rem;
+    font-size: 42px;
     font-family: monospace, Helvetica, sans-serif;
     font-weight: bold;
-    border: 4px solid #e7e6f0;
+    border: 4px solid #78777e;
     margin-top: 40px;
     color: #e7e6f0
 }
 
 h2{
+    font-size: 32px;
     font-family: Arial, Helvetica, sans-serif;
     color: #c6c5d4;
 }
 
 p{
+    font-size: 20px;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     color: #b9b9c4
 }
@@ -32,13 +34,13 @@ div{
     margin: auto;
     text-align: center;
     padding: 20px;
+    margin-left: 100px;
+    margin-right: 100px;
 }
 
 .center {
-    margin: 1000px;
-    width: 80%;
-    padding: 1000px;
-    
+    width: 50%;
+
 }
 
 a {
