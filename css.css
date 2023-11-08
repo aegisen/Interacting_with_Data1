@@ -1,0 +1,56 @@
+html {
+    background-color: #1a1a21 !important;
+    margin: 2em;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 100%;
+}
+h1{
+    font-size: 2rem;
+    font-family: monospace, Helvetica, sans-serif;
+    font-weight: bold;
+    color: #e7e6f0
+}
+
+h2{
+    font-family: Arial, Helvetica, sans-serif;
+    color: #c6c5d4;
+}
+
+p{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: #b9b9c4
+}
+
+iframe{
+    border: 0;
+}
+
+a {
+    color: #9357DB;
+    /* First we need to help some browsers along for this to work.
+       Just because a vendor prefix is there, doesn't mean it will
+       work in a browser made by that vendor either, it's just for
+       future-proofing purposes I guess. */
+    -o-transition:color .2s ease-out, background 1s ease-in;
+    -ms-transition:color .2s ease-out, background 1s ease-in;
+    -moz-transition:color .2s ease-out, background 1s ease-in;
+    -webkit-transition:color .2s ease-out, background 1s ease-in;
+    /* ...and now for the proper property */
+    transition:color .2s ease-out, background 2s ease-in;
+  }
+  a:hover { color:#bb418a; background: #E1E0FC; }
+section {
+    margin: 2rem;
+}
+
+
+/* classes */
+.scalesvg{
+    width: 80%;
+}
+/* specific divs */
+
+::selection {
+    color: whitesmoke;
+    background: rgb(176, 53, 141);
+  }
