@@ -24,6 +24,11 @@ h2{
     color: #c6c5d4;
 }
 
+footer p{
+    color: #8b8b94 !important;
+    text-align: center;
+}
+
 p{
     font-size: 20px;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
@@ -65,7 +70,7 @@ a {
     -webkit-transition:color .2s ease-out, background 1s ease-in;
     transition:color .2s ease-out, background 2s ease-in;
   }
-  a:hover { color:#bb418a; background: #434047; }
+  a:hover { color:#bb418a; background: #353238; }
 
 
 section {
@@ -77,6 +82,6 @@ section {
 }
 
 ::selection {
-    color: whitesmoke;
+    color: #edeef0;
     background: rgb(176, 53, 141);
   }
